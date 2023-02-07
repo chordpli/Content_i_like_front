@@ -21,6 +21,9 @@ div {
     /*position: absolute;*/
 }
 
+input{
+    cursor: pointer;
+}
 textarea:focus {
     outline: none;
 }
