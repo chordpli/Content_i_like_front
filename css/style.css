@@ -21,6 +21,10 @@ div {
     /*position: absolute;*/
 }
 
+textarea:focus {
+    outline: none;
+}
+
 .container {
     width: 100%;
     height: 3000px;

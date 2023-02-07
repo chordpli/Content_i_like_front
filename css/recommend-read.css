@@ -61,3 +61,276 @@
     text-align: left;
     color: rgba(255, 255, 255, 0.45);
 }
+
+.post-read-user-info {
+    display: flex;
+
+}
+
+.author-img {
+    width: 8%;
+    display: flex;
+}
+
+.author-img img {
+    width: 65px;
+    height: 65px;
+    border-radius: 50px;
+}
+
+.user-info-name-date {
+    width: 70%;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.user-info-name {
+    font-family: NotoSansKR;
+    font-size: 26px;
+    text-align: left;
+    color: #fff;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.post-date {
+    display: flex;
+    justify-self: end;
+}
+
+.like-and-point {
+    width: 10%;
+    display: flex;
+    align-items: end;
+
+    font-family: NotoSansKR;
+    font-size: 22px;
+    text-align: left;
+    color: #fff;
+}
+
+.line {
+    margin: 30px 0px;
+    border-bottom: 1px white solid;
+}
+
+.album-info {
+    display: flex;
+}
+
+.album-img img {
+    width: 110px;
+    height: 110px;
+    border-radius: 25px;
+}
+
+.song-info {
+    width: 70%;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.song-name {
+    font-family: NotoSansKR;
+    font-size: 22px;
+    text-align: left;
+    color: #fff;
+}
+
+.artist-name {
+    opacity: 0.65;
+    font-family: NotoSansKR;
+    font-size: 18px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.65);
+}
+
+.youtube-url {
+    width: 148px;
+    height: 47px;
+    margin: 34px 52px 35px 22px;
+    border-radius: 23px;
+    border: solid 1px #fff;
+
+    font-family: NotoSansKR;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.post-content {
+    margin: 32px 50px 33px 1px;
+    font-family: NotoSansKR;
+    font-size: 18px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.65);
+}
+
+.comment-input {
+    width: 100%;
+    height: 167px;
+    border-radius: 23px;
+    border: solid 1px white;
+    display: flex;
+
+}
+
+.comment-user-info {
+    width: 200px;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.comment-user-img {
+    display: flex;
+    align-self: center;
+}
+
+.comment-user-img img {
+    width: 84px;
+    height: 84px;
+    border-radius: 50px;
+}
+
+.comment-user-name {
+    margin: 10px;
+    align-self: center;
+}
+
+.comment-input-area {
+    margin: 20px;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.comment-input-area textarea {
+    width: 100%;
+    height: 100%;
+    font-family: NotoSansKR;
+    font-size: 18px;
+    text-align: left;
+    color: white;
+    background-color: transparent;
+    border: none;
+    resize: none;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.button-comment-input {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.button-comment-input input {
+    width: 110px;
+    height: 47px;
+    border-radius: 23px;
+    border: solid 1px white;
+
+    font-family: NotoSansKR;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+
+    background-color: transparent;
+
+    display: flex;
+    justify-content: center;
+}
+
+.comment-title {
+    margin: 40px 0px;
+    font-family: NotoSansKR;
+    font-size: 20px;
+    text-align: left;
+    color: white;
+}
+
+.super-chat-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.super-chat-user {
+    margin-bottom: 20px;
+    margin-right: 40px;
+    width: 18%;
+    border-top: 2px solid white;
+    display: flex;
+    flex-direction: row;
+}
+
+.super-chat-user-img {
+    display: flex;
+    align-self: center;
+}
+
+.super-chat-user-img img {
+    margin: 10px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+
+.super-chat-point {
+    margin: 10px;
+    font-family: NotoSansKR;
+    font-size: 20px;
+    text-align: left;
+    color: white;
+}
+
+.super-chat-user-name {
+    margin: 10px;
+    font-family: NotoSansKR;
+    font-size: 18px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.45);
+}
+
+.comment-list{
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid white ;
+}
+.comment-list-user-info{
+    display: flex;
+    flex-direction:column;
+}
+
+.comment-list-user-img {
+    display: flex;
+    align-self: center;
+}
+
+.comment-list-user-img img {
+    margin: 10px;
+    width: 85px;
+    height: 85px;
+    border-radius: 50px;
+}
+
+.comment-list-user-name{
+    display: flex;
+    align-self: center;
+}
+
+.comment-list-user-point{
+    display: flex;
+    align-self: center;
+}
